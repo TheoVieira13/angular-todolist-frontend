@@ -1,0 +1,96 @@
+
+body {
+  background-color: #f8f9fa;
+  font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+}
+
+.container {
+  max-width: 800px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  background-color: #ffffff;
+  padding: 30px;
+}
+
+h1 {
+  color: #343a40;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.card {
+  border: none;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  border-radius: 8px;
+}
+
+.card-header {
+  background-color: #007bff;
+  color: white;
+  font-weight: 500;
+  border-top-left-radius: 8px;
+  border-top-right-radius: 8px;
+}
+
+.input-group .form-control {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
+.input-group .btn {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+
+.btn-group {
+  width: 100%;
+  display: flex;
+}
+
+.btn-group .btn {
+  flex-grow: 1;
+  border-radius: 5px !important;
+  margin: 0 5px;
+}
+.btn-group .btn:first-child { margin-left: 0; }
+.btn-group .btn:last-child { margin-right: 0; }
+
+.list-group-item {
+  display: flex;
+  align-items: center;
+  padding: 15px 20px;
+  border-color: #e9ecef;
+  transition: background-color 0.3s ease;
+}
+
+.list-group-item:hover {
+  background-color: #f1f1f1;
+}
+
+.list-group-item .form-check-input {
+  cursor: pointer;
+  margin-right: 15px;
+  transform: scale(1.2);
+}
+
+.list-group-item span {
+  flex-grow: 1;
+  font-size: 1.1em;
+  color: #495057;
+}
+
+.text-decoration-line-through {
+  color: #6c757d !important;
+  font-style: italic;
+}
+
+.list-group-item .btn {
+  margin-left: 10px;
+  min-width: 70px;
+}
+
+.list-group-item.text-center {
+  font-style: italic;
+  color: #6c757d;
+}
